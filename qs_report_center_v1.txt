@@ -1,0 +1,22 @@
+VAI_RC_DATASOURCES
+    name /nn
+    description
+    raw_query /nn clob 
+
+VAI_RC_TEMPLATES
+    name /nn
+    description
+    content /nn blob
+
+VAI_RC_REPORTS_META
+    name
+    rc_datasource_id
+    rc_template_id
+
+VAI_RC_REPORT_DOWNLOADS
+    name /nn 
+    status
+    mime_type /nn
+    body /nn blob
+
+# settings = { PK: "SEQ", date: "TIMESTAMP", semantics: "CHAR", auditCols: true, language: "EN", APEX: true }
